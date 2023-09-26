@@ -1,5 +1,55 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+body {
+  background-color: #D4A76A;
+}
+
+h1 {
+  padding: 60px;
+  background: #FFDBAA;
+  color: #553100;
+}
+
+h2 {
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-wrap: flex;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+article {
+  flex: 1 150px;
+}
+
+article {
+  flex: 2 150px;
+}
+
+article {
+  flex: 3 150px;
+}
+
+fieldset {
+  padding: 10px 10px;
+  text-align: center;
+  background: white;
+}
+
+button {
+  background-color: #805215;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
